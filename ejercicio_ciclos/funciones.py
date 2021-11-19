@@ -1,4 +1,10 @@
 
+def recorrer():
+    nombre = input("escribe tu nombre:\n>>")
+    for letra in nombre:
+        print(letra)
+
+
 def ejercicioWile():
     numerobase=pidenumero("dame un numero base:\n>>")
     contador=0
